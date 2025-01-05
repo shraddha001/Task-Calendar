@@ -22,7 +22,7 @@ The **core module** contains the business logic for the Task Calendar App.
 
 # Screenshot
 
-![Main Screen](screenshots/screenshot_of_task.png)
+![Main Screen](screenshots/screenshot3.png)
 
 # Code Explanation
 
@@ -34,12 +34,20 @@ In the layout file (activity_main.xml), a custom CalendarLayout is used to displ
 view. The CalendarLayout is constrained within the parent layout and takes up the full width of the
 screen with a dynamic height.
 
-`<com.task.sm.core.calendar.CalendarLayout
-android:id="@+id/calendarView"
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-app:layout_constraintStart_toStartOf="parent"
-app:layout_constraintTop_toTopOf="parent" />`
+`
+<com.task.sm.core.calendar.CalendarLayout
+
+    android:id="@+id/calendarView"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+
+    app:layout_constraintStart_toStartOf="parent"
+
+    app:layout_constraintTop_toTopOf="parent"
+/>
+`
 
 # MainActivity Logic
 

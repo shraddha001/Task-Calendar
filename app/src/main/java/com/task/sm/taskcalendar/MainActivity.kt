@@ -52,9 +52,9 @@ class MainActivity : AppCompatActivity() {
         )
         list.add(
             Task(
-                startDate = LocalDate.of(2025, 1, 1),
-                endDate = LocalDate.of(2025, 1, 2),
-                taskName = "My Birthday",
+                startDate = LocalDate.of(2025, 1, 2),
+                endDate = LocalDate.of(2025, 1, 4),
+                taskName = "Winter Holiday's",
                 taskColor = "#4E8420",
                 iconColor = getColorInt(R.color.success),
                 taskImage = getDrawable(R.drawable.ic_check)
