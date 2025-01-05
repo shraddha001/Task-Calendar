@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
                 endDate = LocalDate.of(2025, 1, 2),
                 taskName = "My Birthday",
                 taskColor = "#4E8420",
-                iconColor = getColorInt(R.color.white),
+                iconColor = getColorInt(R.color.success),
                 taskImage = getDrawable(R.drawable.ic_check)
             )
         )

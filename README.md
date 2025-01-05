@@ -22,7 +22,7 @@ The **core module** contains the business logic for the Task Calendar App.
 
 # Screenshot
 
-![Main Screen](screenshots/screenshot.png)
+![Main Screen](screenshots/screenshot_of_task.png)
 
 # Code Explanation
 
